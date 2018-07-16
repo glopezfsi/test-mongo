@@ -25,7 +25,6 @@ namespace TestMongo.Services.GlobalService
             {
                 throw new Exception("Can not access to MongoDb server.", ex);
             }
-
         }
 
         public IMongoCollection<GlobalModel> Globals => _database.GetCollection<GlobalModel>("globals");
