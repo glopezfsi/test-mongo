@@ -28,6 +28,5 @@ namespace TestMongo.Services.GlobalService
         }
 
         public IMongoCollection<GlobalModel> Globals => _database.GetCollection<GlobalModel>("globals");
-
     }
 }
