@@ -27,7 +27,7 @@ namespace TestMongo
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.AddMvc();
+            services.AddMvc(); 
 
             //injecting Settings in the Options accessor model
             services.Configure<Settings>(Options =>
