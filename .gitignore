@@ -1,0 +1,79 @@
+
+**/npm-debug.log
+
+**/*.csproj.user
+**/.sourcemaps
+
+**/node_modules
+**/obj
+**/bin
+**/dist
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+### VisualStudio Patch ###
+# By default, sensitive information, such as encrypted password
+# should be stored in the .pubxml.user file.
+*.pubxml.user
+
+[Oo]bj/
+[Bb]in/
+*.suo
+*.user
+/TestResults
+*.vspscc
+*.vssscc
+
+
+**/www
+**/wwwroot
+**/plugins
+
+packages/
+
+.vs/
+
+
+
+
+# misc
+**/.sass-cache
+**/connect.lock
+**/coverage
+**/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+**/typings
+
+# e2e
+**/e2e/*.js
+**/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+# IDEs and editors
+**/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+App/www/
